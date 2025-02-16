@@ -1,0 +1,22 @@
+# Ignore environment files
+.env
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+env/
+
+
+
+
+# Ignore Docker-related files
+.dockerignore
+/mysql_data
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/

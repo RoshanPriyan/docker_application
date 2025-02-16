@@ -1,0 +1,17 @@
+project structure
+
+project_folder/
+    |- app/
+        |- __init__.py
+        |- config.py contain db connection
+        |- models.py table structure
+        |- router.py api end points
+        |- views.py  api logic
+        |- main.py contain flask instance
+        |- Dockerfile
+        |- requirements.txt
+    |- docker-compose.yml
+    |- readme
+    |- env python virtual environment
+    |- .dockerignore
+    |- .env environment variable
